@@ -1,0 +1,34 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# Next.js
+/.next/
+/out/
+next-env.d.ts
+
+# Production
+/build
+
+# Environment variables
+.env
+.env*.local
+
+# Debug & Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Supabase local artifacts
+/supabase/.branches
+/supabase/.temp
+
+# TypeScript
+*.tsbuildinfo
+
+# OS & Editors
+.DS_Store
+*.pem
+.vscode/
+.idea/
